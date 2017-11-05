@@ -1,4 +1,23 @@
 
+header {
+  background: #ffffff;
+  border-bottom: 3px solid #cccccc;
+}
+#header-container {
+    width: 960px;
+    height: 110px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px 0px 0px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
 .cont2 {
     width: 960px;
     margin: auto;
@@ -18,9 +37,9 @@
 }
 
 #content {
-	width: 650px;
-	box-sizing: inherit;
-	float: left;
+  	width: 650px;
+  	box-sizing: inherit;
+  	float: left;
    	background-color: #ffffff;
    	border-color: #dddddd;
    	border-style: solid;
@@ -29,10 +48,10 @@
 }
 
 #right-content{
-	width: 270px;
-	box-sizing: inherit;
-	overflow: auto;
-	float: right;
+  	width: 270px;
+  	box-sizing: inherit;
+  	overflow: auto;
+  	float: right;
     position: absolute right;
    	background-color: #ffffff;
    	border-color: #dddddd;
@@ -93,6 +112,31 @@ a{
 a:hover {
   color: #4aaaa5;
 }
+/* selectors for nav content */
+nav {
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav_link {
+  background: white;
+  height: 100%;
+  padding: 0px 15px;
+
+  transition: all 0.2s linear;
+}
+
+.nav_link:hover {
+  background: #efefef;
+}
+
+.nav_vertical_bar {
+  background: #efefef;
+  width: 1px; 
+  height: 100%;
+}
+
 
 
 
@@ -162,7 +206,7 @@ input::-webkit-input-placeholder {
   margin: 20px;
 }
 
-/* Rotates project in portfolio on hover. */
+/* Rotates project in portfolio on hover. Just to make little fancier*/
 .box:hover {
   transform: rotate(-10deg);
   -ms-transform: rotate(-10deg);

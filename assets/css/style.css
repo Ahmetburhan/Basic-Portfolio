@@ -62,6 +62,11 @@ header {
     margin-left: 40px
 
 }
+
+#section_grey_line {
+    background: #dddddd;
+    height: 3px;
+    margin: 30px 0 20px 0;
 }
 #img-content{
 	float: left;
